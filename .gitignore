@@ -1,0 +1,24 @@
+# --- Python (FastAPI) ---
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+dujiaoka-fastapi\backend\venv\
+.env          <-- 绝对不要上传包含密码的 .env 文件！
+.pytest_cache/
+
+# --- Node (Vue) ---
+node_modules/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+
+# --- IDE ---
+.idea/
+.vscode/
+
+.cursor
+.idea
